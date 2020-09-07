@@ -27,7 +27,7 @@ a:hover{
 	color:#255784;
 	background: #2196f3;
 	box-shadow:	0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3; 
-	transition-delay: 1s;
+	transition-delay: 0.5s;
 }
 
 a span
@@ -251,4 +251,29 @@ justify-content: center;
 	color: #0C4576;
 	font-size: 150px;
 
+}
+
+.social-media a{
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	color: #2196f3;
+	text-transform: uppercase; 
+	letter-spacing:  4px;
+	text-decoration: none;
+	font-size: 24px;
+	overflow: hidden;
+	transition: 1s; 	
+}
+
+.social-media a:hover{/**Make the neon effect on the buttons*/
+	color:#255784;
+	background: #2196f3;
+	box-shadow:	0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3; 
+	
+}
+.social-media ul{
+/**list-style:none;**/
+  margin:5px;
+  padding:0;
 }
